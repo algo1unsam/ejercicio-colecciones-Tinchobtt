@@ -22,6 +22,9 @@ object rolando {
 	method cantidadObjetosEncima(){
 		return mochila.size()
 	}
+	method saberObjeto(objeto){
+		return self.objetosTotales().contains(objeto)
+	}
 }
 object castillo{
 	var almacenado = #{}
